@@ -1,0 +1,1 @@
+Juego interactivo de Piedra 🪨, Papel 📋 o Tijera ✂️ desarrollado con HTML, CSS y JavaScript. Incluye estructura semántica, estilos personalizados y lógica funcional para ofrecer una experiencia simple pero entretenida. Ideal como práctica de desarrollo web front-end.
