@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra|Papel|Tijera</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     
+    <header>
+        <h1>Pierdra, papel o tijera</h1>
+        <p>HTML|CSS|JavaScript</p>
+    </header>
+    <main>
+        <p class="instrucciones" id="instrucciones">
+            El primero que llega a 5 gana!
+        </p>
+        <div class="marcador">
+            <p class="nombre nombre-jughador">Player</p>
+            <p class="nombre nombre-computadora">Compu</p>
+            <p class="puntos">
+                <span id="puntos-usuario">0</span>
+                <span>-</span>
+                <span id="puntos-computadora"></span>
+            </p>
+        </div>
+        <div class="elegi-tu-arma" id="elegi-tu-arma">
+            <h2>Elegi tu arma para el proximo turno</h2>
+            <div class="armas">
+                <button class="arma" id="piedra🪨">🪨</button>
+                <button class="arma" id="papel🧻">🧻</button>
+                <button class="arma" id="tijera✂️">✂️</button>
+            </div>
+        </div>
+        <div class="mensaje" id="mensaje">
+            <p>
+                Elegiste <span class="eleccion" id="eleccion-ususario">papel🧻</span><br>
+                Y la Compu <span class="eleccion" id="eleccion-computadora">piedra🪨</span>
+            </p>
+            <p id="gana-punto">
+                🎉🎉🎉Ganaste un punto🎉🎉🎉 
+            </p>
+            <button class="btn" id="Reiniciar">Reiniciar🔁</button>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
