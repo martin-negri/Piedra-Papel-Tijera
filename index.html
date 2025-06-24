@@ -7,26 +7,30 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <!-- 🎥 Video de fondo -->
+    <video autoplay muted loop playsinline id="video-fondo">
+        <source src="./assets/Video.fondo.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
     <header>
-        <h1>Pierdra, papel o tijera</h1>
+        <h1>Piedra Papel o Tijera </h1>
+        <p>🪨-🧻-✂️</p>
         <p>HTML|CSS|JavaScript</p>
     </header>
     <main>
         <p class="instrucciones" id="instrucciones">
-            El primero que llega a 5 gana!
+            El primero que llega a 5 gana
         </p>
         <div class="marcador">
-            <p class="nombre nombre-jughador">Player</p>
+            <p class="nombre nombre-jugador">Player</p>
             <p class="nombre nombre-computadora">Compu</p>
             <p class="puntos">
                 <span id="puntos-usuario">0</span>
-                <span>-</span>
+                <span>- 0</span>
                 <span id="puntos-computadora"></span>
             </p>
         </div>
         <div class="elegi-tu-arma" id="elegi-tu-arma">
-            <h2>Elegi tu arma para el proximo turno</h2>
             <div class="armas">
                 <button class="arma" id="piedra🪨">🪨</button>
                 <button class="arma" id="papel🧻">🧻</button>
