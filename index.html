@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedra|Papel|Tijera</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Piedra | Papel | Tijera</title>
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
-    <!-- 🎥 Video de fondo -->
     <video autoplay muted loop playsinline id="video-fondo">
-        <source src="./assets/Video.fondo.mp4" type="video/mp4">
+        <source src="./assets/Video.fondo.mp4" type="video/mp4" />
         Tu navegador no soporta videos HTML5.
     </video>
+
     <header>
-        <h1>Piedra Papel o Tijera </h1>
+        <h1>Piedra Papel o Tijera</h1>
         <p>🪨-🧻-✂️</p>
-        <p>HTML|CSS|JavaScript</p>
+        <p>🚀HTML | CSS | JavaScript🚀</p>
     </header>
+
     <main>
         <p class="instrucciones" id="instrucciones">
             El primero que llega a 5 gana
         </p>
+
         <div class="marcador">
             <p class="nombre nombre-jugador">Player</p>
             <p class="nombre nombre-computadora">Compu</p>
             <p class="puntos">
                 <span id="puntos-usuario">0</span>
-                <span>- 0</span>
-                <span id="puntos-computadora"></span>
+                <span>-</span>
+                <span id="puntos-computadora">0</span>
             </p>
         </div>
-        <div class="elegi-tu-arma" id="elegi-tu-arma">
+
+        <div class="elegi-tu-arma">
             <div class="armas">
                 <button class="arma" id="piedra🪨">🪨</button>
                 <button class="arma" id="papel🧻">🧻</button>
                 <button class="arma" id="tijera✂️">✂️</button>
             </div>
         </div>
-        <div class="mensaje" id="mensaje">
+
+        <div class="mensaje disabled" id="mensaje">
             <p>
-                Elegiste <span class="eleccion" id="eleccion-ususario">papel🧻</span><br>
+                Elegiste <span class="eleccion" id="eleccion-usuario">papel🧻</span><br />
                 Y la Compu <span class="eleccion" id="eleccion-computadora">piedra🪨</span>
             </p>
-            <p id="gana-punto">
-                🎉🎉🎉Ganaste un punto🎉🎉🎉 
-            </p>
-            <button class="btn" id="Reiniciar">Reiniciar🔁</button>
+            <p id="gana-punto">🎉🎉🎉Ganaste un punto🎉🎉🎉</p>
+            <button class="btn disabled" id="Reiniciar">Reiniciar🔁</button>
         </div>
     </main>
-
-
-
-
-
-
-
 
     <script src="./js/main.js"></script>
 </body>
